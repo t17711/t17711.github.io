@@ -16,3 +16,8 @@ Maybe I will add linkedIn info, Bitbucket projects, and other stuff too
 - [ ] better background
 - [ ] theme options
 - [ ] navbar and some info on top
+
+## stack ## 
+- bootstrap
+- JQuery
+- Github.js
