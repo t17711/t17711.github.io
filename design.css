@@ -1,0 +1,52 @@
+body{
+	background-color: #cd853f;
+}
+
+#Repositories{
+	margin: auto;
+	width:95vw;
+	padding: 5vw;
+}
+
+.card{
+	width: 40vw;
+	max-width: 350px;
+	min-width: 100px;
+	margin-top: 2vh;
+	margin-left: 5vw;
+	min-height: 20vh;
+	background-color: #b0c4de;
+	display: inline-flex;
+	padding: 10px;
+	text-align: center;
+}
+
+.card .btn{
+	margin: 10px;
+}
+
+.modal-dialog,
+.modal-header{
+	width:90vw;
+	max-width: 1000px;
+}
+
+.modal-body{
+	background-color:ghostwhite;
+}
+
+.modal-body{
+	padding-top: 2vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.modal-header{
+	background-color:rgba(30, 255, 50, 0.5);
+	text-align: center;
+	display: block;
+}
+
+#MarkDownData{
+	word-wrap: break-word;
+}
