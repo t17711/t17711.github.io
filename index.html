@@ -18,7 +18,32 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div id="Repositories"></div>
+	<nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+		<a class="navbar-brand">Binod Timalsina</a>
+		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNav">
+  			<ul class="navbar-nav">
+  				<li class="nav-item">
+  					<a target="Repositories" class="nav-link" href="#">
+  						Github Stuff
+  					</a>
+  				</li>
+  				<li class="nav-item">
+  					<a target="LinkedIn" class="nav-link" href="#">
+  					LinkedIn Stuff
+  					</a>
+  				</li>
+  			</ul>
+  		</div>
+	</nav>
+
+	<div class="data_stuff" id="Repositories"></div>
+	<div class="data_stuff" id="LinkedIn">
+		TODO
+	</div>
+
 	<div class="readme modal fade bd-example-modal-lg" id="readmemodal" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-lg" role="document">
 		<div class="modal-content">
@@ -26,16 +51,20 @@
 			</div>
 		     <div class="modal-body">
 		     	<p id="MarkDownData"> </p>
-		        </div>
-		      <div class="modal-footer">
+		     </div>
+		     <div class="modal-footer">
 		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		      </div>
+		     </div>
 		 </div>
 		 </div>
 	</div>
 
 </body>
-<script type="text/javascript" src="script.js"></script>
-<link rel="stylesheet" type="text/css" href="design.css">
+<script type="text/javascript" src="js/repos.js"></script>
+<script type="text/javascript" src="js/readme.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+<link rel="stylesheet" type="text/css" href="css/design.css">
+<link rel="stylesheet" type="text/css" href="css/READMEMODAL.css">
+<link rel="stylesheet" type="text/css" href="css/repo_cards.css">
 
 </html>

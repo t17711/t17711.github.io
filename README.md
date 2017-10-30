@@ -8,16 +8,15 @@ Maybe I will add linkedIn info, Bitbucket projects, and other stuff too
 ```
 
 ## TODO ##
-- [ ]remove github.js because Its just feapi calls and I dont need the huge library
-- [ ] add linked in parse
+- [x]Use ajax for githup api call directly
+- [ ] add linkedIn parse
 - [ ] may be oauth2
 - [x] Modal to display readme as html
 - [x] card layout to display projects
 - [ ] better background
 - [ ] theme options
-- [ ] navbar and some info on top
+- [x](Partially) navbar and some info on top 
 
 ## stack ## 
 - bootstrap
 - JQuery
-- Github.js
