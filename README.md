@@ -8,7 +8,7 @@ Maybe I will add linkedIn info, Bitbucket projects, and other stuff too
 ```
 
 ## TODO ##
-- [x]Use ajax for githup api call directly
+- [x] Use ajax for githup api call directly
 - [ ] add linkedIn parse
 - [ ] may be oauth2
 - [x] Modal to display readme as html
