@@ -16,6 +16,9 @@ Maybe I will add linkedIn info, Bitbucket projects, and other stuff too
 - [ ] better background
 - [ ] theme options
 - [x](Partially) navbar and some info on top 
+- [ ] some kind of decent background 
+- [ ] landing page or the slide show like thing theat most fancy sites seem to have but are just bootstrap theme
+- [ ] may be integrate with google cloud which i can get for free for apis so thati can use linked in data Oauth2 etc
 
 ## stack ## 
 - bootstrap
